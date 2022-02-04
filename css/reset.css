@@ -117,6 +117,7 @@ blockquote {
 /*-------- font weight --------*/
 .font-thin-xs {
 	font-weight: 200 !important;
+	color: black;
 }
 .font-thin {
 	font-weight: 300 !important;
@@ -144,16 +145,16 @@ blockquote {
 	color: #FFF !important;
 }
 .font-color {
-	color: #17a2aa;
+	color: #ee333e;
 }
 .font-color.light {
-	color: #2db4bb;
+	color: #ee333e;
 }
 .font-red {
-	color: #ff0000;
+	color: #ee333e;
 }
 .font-black {
-	color: #373636;
+	color: #ee333e;
 }
 .font-grey {
 	color: #888989;

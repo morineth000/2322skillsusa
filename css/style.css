@@ -99,10 +99,10 @@ body {
 }
 /* Logo */
 .navbar-brand.logo {
-	background: url(../images/logo.png) no-repeat left 12px;
+	background: url(../images/images/transparent-logo-100.png) no-repeat left 12px;
 }
 .navbar-brand.logo.black-logo {
-	background: url(../images/logo-black.png) no-repeat left 15px;
+	background: url(../images/images/transparent-logo-100.png) no-repeat left 15px;
 }
 .header-top {
 	background: #ededed none repeat scroll 0 0;
@@ -169,7 +169,7 @@ body {
 .sec-title-two {
 	text-align: center;
 	font-size: 150px;
-	color: #4ab8c6;
+	color: #ee333e;
 	font-weight: bold;
 }
 .title-line {
