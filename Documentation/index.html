@@ -1,0 +1,412 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>EventMe - Responsive HTML5 Template</title>
+	
+	<meta name="description" content="Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email us at jakjim@gmail.com.">
+	<meta name="author" content="jThemes">
+	<meta name="copyright" content="jThemes">
+	<meta name="generator" content="Documenter v2 http://rxa.li/documenter">
+	<meta name="date" content="2014-04-12T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	
+	<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	<link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+	<script src="js/shCore.js"></script>
+	<script src="js/shBrushXml.js"></script>
+	<script src="js/shBrushPhp.js"></script>
+	<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.png);}
+		a{color:#0000FF;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ol{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ol a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ol a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ol a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#files_structure">Files Structure</a></li>
+			<li><a href="#html_structure">HTML Structure</a></li>
+			<li><a href="#css_structure">CSS Structure</a></li>
+			<li><a href="#javascript">Javascript</a></li>
+			<li><a href="#customization_styles">Customization & Styles</a></li>
+			<li><a href="#fonts">Fonts</a></li>
+			<li><a href="#icons">Icons</a></li>
+			<li><a href="#patterns">Boxed Background Patterns</a></li>
+			<li><a href="#sliders">Sliders</a></li>
+			<li><a href="#lightbox">Lightbox</a></li>
+			<li><a href="#timeline">Timeline</a></li>
+			<li><a href="#php_scripts">PHP Scripts</a></li>
+            <li><a href="#paypal">Paypal Integration</a></li>
+			<li><a href="#social_media_icons">Social Media - Icons</a></li>
+			<li><a href="#source_credits">Source & Credits</a></li>
+
+		</ol>
+		<div id="documenter_copyright">Copyright jThemes 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2</a>
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><h1>EventMe</h1><h2>Responsive HTML5 Template</h2><hr><ul><li>Created: 04/12/2014</li><li>latest Update: 04/30/2014</li><li>By: jThemes</li><li><a href=""></a></li><li>Email: <a href="mailto:jakjim@gmail.com">jakjim@gmail.com</a></li></ul><p>Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email us.</p></section>
+<section id="files_structure">
+	<h3>Files Structure</h3><hr class="notop">
+<pre>
+- assets
+    - css (Template CSS)
+        theme.css (Main Styles)
+
+    - img (All Images)
+
+    - js (Template JS)
+
+    - php (Contact Form php files)
+
+    - plugins (All external libs. We keep all of them in this folder to make updates easily.)
+</pre>
+<p>	&nbsp;</p>
+</section>
+<section id="html_structure">
+	<h3>HTML Structure</h3><hr class="notop">
+<p>	The template is based on <strong>Bootstrap </strong>Framework - <a href="http://getbootstrap.com/">http://getbootstrap.com/</a></p>
+<p>	The default Bootstrap grid system utilizes <strong>12 columns</strong>, making for a <strong>1170px </strong>wide depending on your viewport. Below 480px viewports, the columns become fluid and stack vertically.<br>
+	<br>
+	Create a .row and add the appropriate number of .col-sm-* columns.<br>
+	&nbsp;</p>
+
+<h4>HTML Markup</h4>
+<pre class="brush: html">
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-sm-12&quot;&gt;
+        Level 1 column
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-sm-6&quot;&gt;Level 2&lt;/div&gt;
+            &lt;div class=&quot;col-sm-6&quot;&gt;Level 2&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</pre>
+<p>	&nbsp;</p>
+<p>	If you need more information, please visit this site: <a href="http://getbootstrap.com/css/#grid">http://getbootstrap.com/css/#grid</a></p>
+</section>
+<section id="css_structure">
+	<h3>CSS Structure</h3><hr class="notop">
+<p>	The organization of the CSS is one of our priorities.<br>
+	These are the CSS file we&#39;re using in the template:</p>
+<pre>
+- assets
+    - css
+        - theme.css - (Main CSS file)
+        - theme-blue.css - (Main CSS file)
+        - theme-green.css - (Green Theme Color)
+        - theme-orange.css - (Orange Theme Color)
+        - theme-pink.css - (Pink Theme Color)
+        - theme-purple.css - (Purple Theme Color)
+        - theme-yellow.css - (Yellow Theme Color)
+</pre>
+<p>	&nbsp;</p>
+</section>
+<section id="javascript">
+	<h3>Javascript</h3><hr class="notop">
+<p>	<strong>jQuery </strong>- is a Javascript library that greatly reduces the amount of code that you must write.<br>
+	For more information, please visit <a href="http://www.jquery.com/">http://www.jquery.com/</a><br>
+	<br>
+	All the JavaScript libraries and files are included at the bottom of every HTML page like this:<br>
+    <pre class="brush: html">
+    <script src="assets/plugins/modernizr.custom.js"></script>
+    </pre>
+    <br>
+	The initializations and parameters (sliders, effects, etc.) are contained in <strong>assets/js/main.js</strong></p>
+</section>
+    <section id="customization_styles">
+        <h3>Customization &amp; Styles</h3><hr class="notop">
+        <p>	In order to select the right combination of styles for your website find and edit the next lines in /assets/js/theme.js:</p>
+    <pre class="brush: php">
+        var color = 'blue'; //  black, blue, green, grey, lime, orange, pink, purple, red, river, yellow
+        var layout = 'wide'; // wide, boxed
+        var pattern = 'square_bg';
+    </pre>
+
+    <h4>RTL Layout</h4>
+    <p>	In order to activate RTL Layout mode for the website put `<b>rtl</b>` class into &lt;body&gt; tag</p>
+    </section>
+<section id="fonts">
+	<h3>Fonts</h3><hr class="notop">
+<p>	To change the embedded font, please take a look in the head part of assets/css/theme.css:</p>
+<pre>
+    @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+</pre>
+<p>	To change the font, first go to http://www.google.com/webfonts choose a font and add the generated code to the top of theme.css.</p>
+<p> Then edit font-family in </p>
+    <pre>
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            background: #ffffff;
+            color: #787b80;
+
+            -webkit-font-kerning: auto;
+            -webkit-font-smoothing: antialiased;
+            -webkit-backface-visibility: visible !important; /* reset animate.css / if hidden parallax buggy */
+            position:relative;
+
+            font-size: 16px;
+            overflow-x: hidden;
+        }
+    </pre>
+
+    <p>and</p>
+
+    <pre>
+       h1, h2, h3, h4, h5, h6 {
+            font-family: 'nexa_boldregular';
+            text-transform: uppercase;
+            color: #374146;
+       }
+    </pre>
+
+    <p>and</p>
+
+    <pre>
+        .btn-theme {
+            color: #d2d2dc;
+            background-color: transparent;
+            border-width: 2px;
+            border-color: #d2d2dc;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 700;
+            padding: 20px 40px;
+        }
+    </pre>
+</section>
+<section id="icons">
+	<h3>Icons</h3><hr class="notop">
+<p>	<strong>Font Awesome</strong> is a @font-face iconset that you can change size and color of the icons using CSS.<br>
+	<br>
+	If you need more information, please visit this site: <a href="http://fortawesome.github.com/Font-Awesome/">http://fortawesome.github.com/Font-Awesome/</a></p>
+<p>	&nbsp;</p>
+<h4>
+	HTML Markup:</h4>
+<pre class="brush: html">
+&lt;i class=&quot;fa-edit&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa-search&quot;&gt;&lt;/i&gt;
+...
+</pre>
+<p>	&nbsp;</p>
+</section>
+<section id="patterns">
+    <h3>Boxed Background Patterns</h3><hr class="notop">
+    <p>All patterns are downloaded from <a href="http://www.subtlepatterns.com/">www.subtlepatterns.com</a><br>
+        If you need more, that's where to get'em.</p>
+    <p>	&nbsp;</p>
+<h4>How to create colored pattern:</h4>
+<pre class="brush: html">
+Open patterns.psd (Documentation/patterns.psd);
+Right click on "Layer 0" (Layers);
+Left click "Copy Layer Style";
+</pre>
+<pre class="brush: html">
+Open any pattern in photoshop;
+Menu select ... Image > Mode > RGB Color;
+Layers > background right click > "convert to smart object";
+Right click "Paste Layer Style" (now image colored);
+</pre>
+<strong>To change color</strong>
+<pre class="brush: html">
+Layer > Fx > double click "Color Overlay";
+In popup window > "Color Overlay" > "Blend Mode:" > select another color;
+Click ok;
+</pre>
+    <p>	&nbsp;</p>
+</section>
+
+<section id="sliders">
+	<h3>Sliders</h3><hr class="notop">
+<h4>
+    Owl Carousel</h4>
+
+<p>
+	<strong>Owl Carousel </strong>is the slider you&#39;ll find in the content.<br>
+	It's an easy to use lightweight carousel with some decent features. You can find more documentaion here <a href="http://owlgraphic.com/owlcarousel/">http://owlgraphic.com/owlcarousel/</a><br>
+	<br></p>
+</section>
+<section id="lightbox">
+	<h3>Lightbox</h3><hr class="notop">
+<p>	The timeline is driven by the <strong>PrettyPhoto </strong>script.</p>
+<p>	For more information check the <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/documentation" target="_blank">documentation</a></p>
+<p>	<a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/" target="_blank">http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/</a></p>
+</section>
+<section id="timeline">
+	<h3>Timeline</h3><hr class="notop">
+<p>	The filter is driven by the Isotope script - <a href="http://isotope.metafizzy.co/">http://isotope.metafizzy.co/</a><br>
+	<br>
+	Here&#39;s an example of usage:</p>
+
+</pre>
+<h4>
+	<br>
+	Timeline Data:</h4>
+<pre class="brush: html">
+
+
+
+    <div class="row timeline isotope" id="timeline2">
+
+    <div class="item col-sm-6 isotope-item item-left">
+        <span class="dot"></span>
+        <article class="post-wrap thumbnail">
+            <div class="post-media">
+                <div class="thumbnail no-border do-hover">
+                    <img alt="" src="assets/img/preview/schedule-1.jpg" class="img-responsive">
+                    <div class="caption">
+                        <div class="caption-wrapper div-table">
+                            <div class="caption-inner div-cell">
+                                <p class="caption-buttons">
+                                    <a class="btn caption-social facebook" href="#"><i class="fa fa-facebook"></i></a>
+                                    <a class="btn caption-social twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                    <a class="btn caption-social google-plus" href="#"><i class="fa fa-google-plus"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-meta clearfix">
+                    <span class="pull-left"><span class="post-date"><i class="fa fa-clock-o"></i> 08:00 to 18:00 pm</span> <span class="post-location"><i class="fa fa-map-marker"></i> Hall B</span> </span>
+                    <span class="pull-right"><a href="#"><i class="fa fa-heart"></i> 26</a></span>
+                </div>
+            </div>
+            <div class="post-header">
+                <h4 class="post-title"><a href="#">Standart Speaker Content Header Here.</a></h4>
+                <span class="post-author">by <a href="#">Author Name</a></span>
+            </div>
+            <div class="post-body">
+                <div class="post-excerpt">Lorem ipsum dolor sit amet, ...</div>
+            </div>
+        </article>
+    </div>
+    . . .
+    </div>
+
+
+</pre>
+<p>	&nbsp;</p>
+</section>
+<section id="php_scripts">
+	<h3>PHP Scripts</h3><hr class="notop">
+    <h4>Contact/Get Quote Form</h4>
+<p>	For Contact Form and Get Quote Form to work only thing you need to do is to setup your email address and your name.<br>
+	To do this, please open<strong> &quot;assets/php/contact-form.php&quot; </strong> and <strong> &quot;assets/php/registration.php&quot; </strong>files and change these lines:</p>
+<pre class="brush: php">
+$to = &#39;&#121;&#111;&#117;&#64;&#100;&#111;&#109;&#97;&#105;&#110;&#46;&#99;&#111;&#109;&#39;;
+$toname = 'Your Name';
+</pre><br>
+    <h4>Subscribe Form (Mailchimp)</h4>
+    <p>	Subscription form works through the <a href="http://mailchimp.com" target="_blank">Mailchimp</a> service. If you don't already have account there please create it. It's Free!<br><br>
+        In your account you'll have to find API Key and List ID for the script to function. Both of those you have to create beforehand. Please use Mailchimp docs to find out how.<br>
+        <b>API Key</b> is found in "Account Settings => Extras => API Keys"<br>
+        <b>List ID</b> is found in "Lists => Your list => Settings => List name & defaults"<br><br>
+
+    Then edit this file using the info:
+    <pre>assets/php/mailchimp/subscribe.php</pre>
+<pre class="brush: php">
+    $MailChimp = new MailChimp('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-usx'); // Put your API Key here
+    $result = $MailChimp->call('lists/subscribe', array(
+        'id'                => 'xxxxxxxxxx', // Put your list ID here
+        'email'             => array('email'=>$_GET['email']),
+        'merge_vars'        => array('FNAME'=>'', 'LNAME'=>''),
+        'double_optin'      => false,
+        'update_existing'   => false,
+        'replace_interests' => false,
+        'send_welcome'      => true,
+    ));
+</pre><br>
+    </p>
+<p class="warning">
+	One notice: this will be functional only on your server, php files can not be executed on your local computer.</p>
+</section>
+    <section id="paypal">
+        <h3>Paypal Integration</h3><hr class="notop">
+        <p>	You can use simple Paypal integration for receiving payments. In this case you have to rename <b>index-paypal.html</b> file to <b>index.html</b></p>
+        <p>	In this file just replace all the <b>hosted_button_id=XXXXXXXXXXXXX</b> with your <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_singleitem-intro-outside" target="_blank">Payment Button ID</a> and you are ready to receive payments.</p>
+        <img src="assets/images/paypal.png">
+        <p>	<a href="https://developer.paypal.com/webapps/developer/docs/classic/paypal-payments-standard/ht_create-pps-buttons/" target="_blank">https://developer.paypal.com/webapps/developer/docs/classic/paypal-payments-standard/ht_create-pps-buttons/</a></p>
+    </section>
+<section id="social_media_icons">
+	<h3>Social Media - Icons</h3><hr class="notop">
+<p>	We are using FontAwesome for social media icons in this template. Insert icons like this:</p>
+    <pre class="brush: html">
+    <i class="fa fa-google-plus"></i>
+    </pre>
+    Here's the complete list of available icons from FontAwesome docs:
+    <p>	<img src="assets/images/docs-social.gif"></p>
+</section>
+<section id="source_credits">
+	<h3>Source & Credits</h3><hr class="notop">
+<p style="margin-left: 40px;">
+	<br>
+	Fonts:<br>
+	<strong>&nbsp;&nbsp; &nbsp;Nexa (Light & Bold)</strong> - <a href="http://fontfabric.com/nexa-free-font/">http://fontfabric.com/nexa-free-font/</a><br>
+	<strong>&nbsp;&nbsp; &nbsp;Google Fonts</strong> - <a href="http://www.google.com/webfonts">http://www.google.com/webfonts</a><br>
+	<strong>&nbsp;&nbsp; &nbsp;Icons Font-face</strong> - <a href="http://fortawesome.github.com/Font-Awesome/">http://fortawesome.github.com/Font-Awesome/</a><br>
+	<br>
+	Scripts:<br>
+	&nbsp;&nbsp; &nbsp;<strong>jQuery </strong>- <a href="http://www.jquery.com/">http://www.jquery.com/</a><br>
+	<strong>&nbsp;&nbsp; &nbsp;Bootstrap Framework</strong> - <a href="http://getbootstrap.com/">http://getbootstrap.com/</a><br>
+	<strong>&nbsp;&nbsp; &nbsp;OWL Carousel</strong> - <a href="http://www.owlgraphic.com/owlcarousel/">http://www.owlgraphic.com/owlcarousel/</a><br>
+	<strong>&nbsp;&nbsp; &nbsp;Isotope Jquery plugin</strong> - <a href="http://isotope.metafizzy.co">http://isotope.metafizzy.co</a><br>
+	<strong>&nbsp;&nbsp; &nbsp;Modernizr </strong>- <a href="http://modernizr.com/">http://modernizr.com/</a><br>
+	<strong>&nbsp;&nbsp; &nbsp;Jquery Superfish Menu plugin</strong> - <a href="http://plugins.jquery.com/superfish/">http://plugins.jquery.com/superfish/</a><br>
+	<strong>&nbsp;&nbsp; &nbsp;HTML5shiv</strong> - <a href="http://code.google.com/p/html5shiv/">http://code.google.com/p/html5shiv/</a><br>
+	<strong>&nbsp;&nbsp; &nbsp;Respond.js</strong> - <a href="https://github.com/scottjehl/Respond">https://github.com/scottjehl/Respond</a><br>
+    <strong>&nbsp;&nbsp; &nbsp;PrettyPhoto</strong>- <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/</a><br>
+    <strong>&nbsp;&nbsp; &nbsp;jQuery Easing</strong> - <a href="http://gsgd.co.uk/sandbox/jquery/easing/">http://gsgd.co.uk/sandbox/jquery/easing/</a><br>
+    <strong>&nbsp;&nbsp; &nbsp;Smooth anchor scrolling plugin for jQuery</strong> - <a href="http://mths.be/smoothscroll">http://mths.be/smoothscroll</a><br>
+    <strong>&nbsp;&nbsp; &nbsp;Placeholder Caret Animation</strong> - <a href="http://placeholdem.jackrugile.com">http://placeholdem.jackrugile.com</a><br>
+    <strong>&nbsp;&nbsp; &nbsp;jQuery Waypoints</strong> - <a href="http://imakewebthings.com/jquery-waypoints/">http://imakewebthings.com/jquery-waypoints/</a><br>
+    <strong>&nbsp;&nbsp; &nbsp;Countdown</strong> - <a href="http://keith-wood.name/countdown.html">http://keith-wood.name/countdown.html</a><br>
+    <strong>&nbsp;&nbsp; &nbsp;Animate.css</strong> - <a href="http://daneden.github.io/animate.css/">http://daneden.github.io/animate.css/</a><br>
+</p>
+    <p class="info">
+        The images included in preview are for demonstration purposes and should always be replaced with your own work.</p>
+<p style="margin-left: 40px;">
+    Images:<br>
+    <a href="http://picjumbo.com/">http://picjumbo.com/</a><br>
+    <a href="http://www.shutterstock.com/">http://www.shutterstock.com/</a><br>
+    <a href="http://www.subtlepatterns.com/">http://www.subtlepatterns.com/</a><br>
+</p>
+<h4>
+	<br>
+	<strong>jThemes</strong></h4>
+</section>
+
+	</div>
+</body>
+</html>
